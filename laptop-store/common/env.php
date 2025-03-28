@@ -1,9 +1,10 @@
 <?php
 // File chứa các biến muôi trường trong hệ thống
 // Khai báo các biến dưới dạng HẰNG SỐ để ko phải sử dụng $GLOBALS
-
-define('BASE_URL' , 'http://localhost/du_an_1/mvc-oop-basic_thi/');
-define('BASE_URL_ADMIN' , 'http://localhost/du_an_1/mvc-oop-basic_thi/admin/');
+//Đường dẫn cilent
+define('BASE_URL' , 'http://localhost/du_an_1/mvc/');
+//Đường dẫn admin
+define('BASE_URL_ADMIN' , 'http://localhost/du_an_1/mvc/admin/');
 
 define('DB_HOST', 'localhost');
 define('DB_PORT', 3306);
